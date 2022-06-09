@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8311e3d3-0d2f-4bed-b5c1-11c64b376ce2" name="Changes" comment="task 2">
-      <change afterPath="$PROJECT_DIR$/src/com/provectus/cfk/CFK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/provectus/cfk/circleArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/provectus/cfk/triangle.java" afterDir="false" />
+    <list default="true" id="8311e3d3-0d2f-4bed-b5c1-11c64b376ce2" name="Changes" comment="task 2 Conditions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task3/CheckOddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3/CheckOddEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task3/NumbersMagnitude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3/NumbersMagnitude.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -40,16 +44,17 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CFK">
-    <configuration name="CFK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.provectus.cfk.CFK" />
+  <component name="RunManager" selected="Application.NumbersMagnitude">
+    <configuration name="CheckOddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.CheckOddEven" />
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.provectus.cfk.*" />
+          <option name="PATTERN" value="task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cfk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.provectus.cfk.cfk" />
+    <configuration name="IsoscelesTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.IsoscelesTriangle" />
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.provectus.cfk.*" />
+          <option name="PATTERN" value="task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.provectus.cfk.circle" />
+    <configuration name="NumbersMagnitude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.NumbersMagnitude" />
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.provectus.cfk.*" />
+          <option name="PATTERN" value="task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="circleArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.provectus.cfk.circleArea" />
+    <configuration name="PrintMonthInWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.PrintMonthInWord" />
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.provectus.cfk.*" />
+          <option name="PATTERN" value="task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.provectus.cfk.triangle" />
+    <configuration name="magnitudeOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.magnitudeOfNumbers" />
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.provectus.cfk.*" />
+          <option name="PATTERN" value="task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CFK" />
-        <item itemvalue="Application.triangle" />
-        <item itemvalue="Application.circleArea" />
-        <item itemvalue="Application.circle" />
-        <item itemvalue="Application.cfk" />
+        <item itemvalue="Application.NumbersMagnitude" />
+        <item itemvalue="Application.CheckOddEven" />
+        <item itemvalue="Application.IsoscelesTriangle" />
+        <item itemvalue="Application.magnitudeOfNumbers" />
+        <item itemvalue="Application.PrintMonthInWord" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +133,28 @@
       <option name="presentableId" value="Default" />
       <updated>1654247487530</updated>
     </task>
+    <task id="LOCAL-00001" summary="task 2">
+      <created>1654505452430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654505452430</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task 2 Conditions">
+      <created>1654716146794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654716146794</updated>
+    </task>
+    <task id="LOCAL-00003" summary="task 2 Conditions">
+      <created>1654717510097</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654717510097</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +170,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 2" />
+    <MESSAGE value="task 2 Conditions" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 2 Conditions" />
   </component>
 </project>
