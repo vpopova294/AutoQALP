@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8311e3d3-0d2f-4bed-b5c1-11c64b376ce2" name="Changes" comment="task 2 Conditions">
+      <change afterPath="$PROJECT_DIR$/src/task4/NumberAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4/RandomNumberGeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4/SinX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task3/CheckOddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3/CheckOddEven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task3/NumbersMagnitude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3/NumbersMagnitude.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task4/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task4/Poker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +46,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NumbersMagnitude">
-    <configuration name="CheckOddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.CheckOddEven" />
+  <component name="RunManager" selected="Application.Poker">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.Main" />
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.*" />
+          <option name="PATTERN" value="task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsoscelesTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.IsoscelesTriangle" />
+    <configuration name="NumberAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.NumberAverage" />
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.*" />
+          <option name="PATTERN" value="task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersMagnitude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.NumbersMagnitude" />
+    <configuration name="Poker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.Poker" />
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.*" />
+          <option name="PATTERN" value="task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintMonthInWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.PrintMonthInWord" />
+    <configuration name="SinX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.SinX" />
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.*" />
+          <option name="PATTERN" value="task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="magnitudeOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.magnitudeOfNumbers" />
+    <configuration name="rest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.rest" />
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.*" />
+          <option name="PATTERN" value="task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumbersMagnitude" />
-        <item itemvalue="Application.CheckOddEven" />
-        <item itemvalue="Application.IsoscelesTriangle" />
-        <item itemvalue="Application.magnitudeOfNumbers" />
-        <item itemvalue="Application.PrintMonthInWord" />
+        <item itemvalue="Application.Poker" />
+        <item itemvalue="Application.SinX" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.NumberAverage" />
+        <item itemvalue="Application.rest" />
       </list>
     </recent_temporary>
   </component>
@@ -133,28 +134,6 @@
       <option name="presentableId" value="Default" />
       <updated>1654247487530</updated>
     </task>
-    <task id="LOCAL-00001" summary="task 2">
-      <created>1654505452430</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1654505452430</updated>
-    </task>
-    <task id="LOCAL-00002" summary="task 2 Conditions">
-      <created>1654716146794</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1654716146794</updated>
-    </task>
-    <task id="LOCAL-00003" summary="task 2 Conditions">
-      <created>1654717510097</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1654717510097</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +149,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task 2" />
-    <MESSAGE value="task 2 Conditions" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 2 Conditions" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 2" />
   </component>
 </project>
