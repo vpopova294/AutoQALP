@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8311e3d3-0d2f-4bed-b5c1-11c64b376ce2" name="Changes" comment="task 2 Conditions">
-      <change afterPath="$PROJECT_DIR$/src/task4/NumberAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task4/RandomNumberGeneration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task4/SinX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4/Poker4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task5_refactoring_poker/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task5_refactoring_poker/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task5_refactoring_poker/NewPoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task5_refactoring_poker/PokerMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task4/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task4/Poker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +50,48 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Poker">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task4.Main" />
+  <component name="RunManager" selected="Application.NewPoker">
+    <configuration name="Deck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task5_refactoring_poker.Deck" />
+      <module name="AutoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task5_refactoring_poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewPoker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task5_refactoring_poker.NewPoker" />
+      <module name="AutoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task5_refactoring_poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjMass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task5_refactoring_poker.ObjMass" />
+      <module name="AutoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task5_refactoring_poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Poker4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.Poker4" />
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
@@ -63,51 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task4.NumberAverage" />
+    <configuration name="PokerMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task5_refactoring_poker.PokerMachine" />
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Poker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task4.Poker" />
-      <module name="AutoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task4.SinX" />
-      <module name="AutoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="rest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task4.rest" />
-      <module name="AutoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task4.*" />
+          <option name="PATTERN" value="task5_refactoring_poker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Poker" />
-        <item itemvalue="Application.SinX" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.NumberAverage" />
-        <item itemvalue="Application.rest" />
+        <item itemvalue="Application.NewPoker" />
+        <item itemvalue="Application.Deck" />
+        <item itemvalue="Application.PokerMachine" />
+        <item itemvalue="Application.ObjMass" />
+        <item itemvalue="Application.Poker4" />
       </list>
     </recent_temporary>
   </component>
@@ -150,5 +151,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task 2" />
     <option name="LAST_COMMIT_MESSAGE" value="task 2" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AutoQA$Test.ic" NAME="Test Coverage Results" MODIFIED="1655114872636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>task4.*</FILTER>
+    </SUITE>
   </component>
 </project>
