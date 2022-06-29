@@ -6,29 +6,31 @@ import java.util.Random;
 import static task5_refactoring_poker.Deck.*;
 
 public class PokerMachine {
+    public Deck createDeck(){
+        return new Deck();
+    }
 
-
-    public static void shuffleDeck() {
+    public static void shuffleDeck(Deck deck) {
         Random random = new Random();
         for (int i = 0; i < 100; i++) {
-            int in  = random.nextInt(26);
-            int out = random.nextInt(26);
+            int in  = random.nextInt(52);
+            int out = random.nextInt(52);
 
-            String tmpCard = getDeckOfCards()[in];
-            getDeckOfCards()[in] = getDeckOfCards()[out];
-            getDeckOfCards()[out] = tmpCard;
+            Card tmpCard = deck.getCard(in);
+            deck.setCard(deck.getCard(out),in);
+            deck.setCard(tmpCard,out);
         }
 
     }
-    public static void serveCards() {
-        String[] deck = getDeckOfCards();
-//        int count = 0;
-//        for (int round = 0; round <= 2; round++) {
-//            System.out.println("round " + round);
-//            for (int player = 1; player <= 2; player++) {
-//                System.out.printf(" player %s gets card: %s%n ", player, getDeckOfCards()[count++]);
-//            }
-//        }
+    public static void serveCards(Deck deck, int players) {
+
+        int count = 0;
+        for (int round = 0; round <= 5; round++) {
+            System.out.println("round " + round);
+            for (int player = 1; player <= players; player++) {
+                System.out.printf(" player %s gets card: %s%n ", player, deck.getCard(count++));
+            }
+        }
     }
 }
 
