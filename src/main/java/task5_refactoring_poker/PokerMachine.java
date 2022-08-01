@@ -3,8 +3,6 @@ package task5_refactoring_poker;
 
 import java.util.Random;
 
-import static task5_refactoring_poker.Deck.*;
-
 public class PokerMachine {
     public Deck createDeck(){
         return new Deck();
