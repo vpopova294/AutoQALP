@@ -1,8 +1,6 @@
 package task5_refactoring_poker;
 
-import java.util.Random;
-
-    public class Card {
+public class Card {
 
     private String cardSuites; // suites
     private String cardValues; // values
@@ -23,6 +21,7 @@ import java.util.Random;
             this.cardValues = cardValues;
         }
     public String getCardName()  {
+
       return cardValues +  " of " + cardSuites;
 
     }

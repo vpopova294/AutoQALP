@@ -1,11 +1,13 @@
 package task5_refactoring_poker;
 
 
+
 public class NewPoker {
 
     // create card
 
     public static void main(String[] args) {
+
 
 //        Card card1 = new Card();
 //        card1.cardSuites = "Hearts";
