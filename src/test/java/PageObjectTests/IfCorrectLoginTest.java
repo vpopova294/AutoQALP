@@ -1,34 +1,38 @@
 package PageObjectTests;
 
 import PageObject.pages.LoginPage;
-import PageObject.pages.MainPage;
-import PageObject.pages.SecurePageWhenLogin;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class IfCorrectLoginTest {
+public class IfCorrectLoginTest extends BaseTest {
     @Test
     public void checkCorrectLogin(){
 
-        WebDriverManager.chromedriver().setup();
+        LoginPage pageWhenLogin = openApp().goToAuthPage()
+                .setUsername("tomsmith")
+                .setPassword("SuperSecretPassword!")
+                .clickLoginButton()
+                .clickLogoutButton()
+                .setUsername("lera")
+                .setPassword("SuperSecretPassword!")
+                .clickLoginButtonWithIncorrectUsername();
 
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://the-internet.herokuapp.com/");
-
-        MainPage mainPage = new MainPage(driver);
-        mainPage.goToAuthPage();
-
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.setUsername("tomsmith");
-        loginPage.setPassword("SuperSecretPassword!");
-        loginPage.clickLoginButton();
-
-
-        SecurePageWhenLogin securePageWhenLogin = new SecurePageWhenLogin(driver);
-        securePageWhenLogin.clickLogoutButton();
-
+//        LoginPage loginPage = new LoginPage(driver);
+//        loginPage.setUsername("tomsmith");
+//        loginPage.setPassword("SuperSecretPassword!");
+//        loginPage.clickLoginButton();
+//
+//
+//        SecurePageWhenLogin securePageWhenLogin = new SecurePageWhenLogin(driver);
+//        securePageWhenLogin.clickLogoutButton();
+//
+//
+//
+//        LoginPage loginPage1 = new LoginPage(driver);
+//        loginPage1.setUsername("tomsmith");
+//        loginPage1.setPassword("something");
+//        loginPage1.clickLoginButton();
+//
+//        driver.quit();
     }
 
 }

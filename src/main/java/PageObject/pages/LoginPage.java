@@ -4,33 +4,42 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
 
-    private WebDriver driver;
-
+    private final By byUsername = By.cssSelector("[name='username']");
+    private final By ByPassword = By.cssSelector("[name='password']");
+    private final By ByLoginButton = By.cssSelector("[class='radius']");
     public LoginPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
-    public void setUsername(String username) {
-        WebElement usernameInput = driver.findElement(By.cssSelector("[name='username']"));
+    public LoginPage setUsername(String username) {
+        WebElement usernameInput = driver.findElement(byUsername);
         usernameInput.clear();
         usernameInput.sendKeys(username);
+        return this;
     }
 
-    public void setPassword(String password) {
-        WebElement passwordInput = driver.findElement(By.cssSelector("[name='password']"));
+    public LoginPage setPassword(String password) {
+        WebElement passwordInput = driver.findElement(ByPassword);
         passwordInput.clear();
         passwordInput.sendKeys(password);
+        return this;
     }
 
-    public void clickLoginButton() {
-        driver.findElement(By.cssSelector("[class='radius']")).click();
+    public SecurePageWhenLogin clickLoginButton() {
+        driver.findElement(ByLoginButton).click();
+        return new SecurePageWhenLogin(driver);
     }
 
-    public void login(String username, String password) {
+    public LoginPage clickLoginButtonWithIncorrectUsername() {
+        driver.findElement(ByLoginButton).click();
+        return new LoginPage(driver);
+    }
+
+    public SecurePageWhenLogin login(String username, String password) {
         setUsername(username);
         setPassword(password);
-        clickLoginButton();
+        return clickLoginButton();
     }
 }

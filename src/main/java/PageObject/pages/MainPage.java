@@ -3,19 +3,26 @@ package PageObject.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class MainPage  {
-    private WebDriver driver;
+public class MainPage extends BasePage {
+
 
     public MainPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
-    public void goToAuthPage(){
+    public LoginPage goToAuthPage(){
         driver.findElement(By.linkText("Form Authentication")).click();
+        return new LoginPage(driver);
     }
 
-    public void goToChallengingDomPage() {
-    driver.findElement(By.linkText("Challenging DOM")).click();
 
+    public ChallengingDomPage goToChallengingDomPage() {
+    driver.findElement(By.linkText("Challenging DOM")).click();
+        return new ChallengingDomPage(driver);
+    }
+
+    public HoversPage goToHoversPage(){
+        driver.findElement(By.linkText("Hovers")).click();
+        return new HoversPage(driver);
     }
 }
